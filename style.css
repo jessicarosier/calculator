@@ -1,0 +1,25 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+button {
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  color: red;
+  font-weight: bolder;
+}
+
+.button,
+.num-button,
+.op-button {
+  height: 50px;
+  width: 50px;
+}
+
+.buttons {
+  gap: 5px;
+}
